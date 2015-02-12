@@ -9,9 +9,9 @@
 ---------
 ```objc
 [KoreanUtils breakUp:@"황동희" units:KoreanLetterUnitNone]; // ""
-[KoreanUtils breakUp:name units:KoreanLetterUnitChosung];   // "ㅎㄷㅎ"
-[KoreanUtils breakUp:name units:KoreanLetterUnitJungsung|KoreanLetterUnitChosung];  // "ㅎㅘㄷㅗㅎㅢ
-[KoreanUtils breakUp:name units:KoreanLetterUnitChosung | KoreanLetterUnitJongsung | KoreanLetterUnitJungsung]; // "ㅎㅘㅇㄷㅗㅇㅎㅢ
+[KoreanUtils breakUp:@"황동희" units:KoreanLetterUnitChosung];   // "ㅎㄷㅎ"
+[KoreanUtils breakUp:@"황동희" units:KoreanLetterUnitJungsung|KoreanLetterUnitChosung];  // "ㅎㅘㄷㅗㅎㅢ
+[KoreanUtils breakUp:@"황동희" units:KoreanLetterUnitChosung | KoreanLetterUnitJongsung | KoreanLetterUnitJungsung]; // "ㅎㅘㅇㄷㅗㅇㅎㅢ
 ```
 
 ```swift
